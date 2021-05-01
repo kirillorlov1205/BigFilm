@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BigFilm - this is a portal about cinema"/>
+    <meta name="keywords" content="movies, hd, fullhd"/>
+    <title>BigFilm</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="header">
+
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="show.html">BigFilm</a></h1>
+                    <h2>Лучшее о фильмах только здесь!</h2>
+                </div>
+            </div>
+
+             <div class="menubar">
+                 <ul class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="films.html">Фильмы</a></li>
+                    <li><a href="#">Сериалы</a></li>
+                    <li><a href="rating.html">Рейтинг фильмов</a></li>
+                    <li class="selected"><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="site_content">
+
+            <div class="sidebar_conteiner">
+                
+                <div class="sidebar">
+                    <h2>Поиск</h2>
+                    <form method="POST" action="#" id="search_form">
+                        <input type="search" name="search_field" placeholder="Ваш запрос">
+                        <input type="submit" class="btn" value="Поиск">
+                    </form> 
+                </div>
+
+                <div class="sidebar">
+                    <h2>Логин</h2>
+                    <form method="POST" action="" id="login_form">
+                        <input type="text" name="login_field" placeholder="Логин">
+                        <input type="password" name="password_field" placeholder="Пароль">
+                        <input type="submit" class="btn" value="Войти">
+                    </form>
+                    <div class="lables_passreg_text">
+                        <span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span>02.10.2020</span>  
+                    <p>Мы запустили расширенный поиск</p>
+                    <a href="#">Читать</a>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Рейтинг фильмов</h2>
+                    <ul>
+                        <li><a href="show.html">Джентльмены</a><span class="rating_sidebar">8.5</span></li>
+                        <li><a href="#">Интерстеллар</a><span class="rating_sidebar">8.6</span></li>
+                        <li><a href="#">Джокер</a><span class="rating_sidebar">8.0</span></li>
+                        <li><a href="#">Остров проклятых</a><span class="rating_sidebar">8.5</span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="content">
+                
+                <h1>Контакты</h1>
+                <p>Отправьте ваш отзыв о портале BigFilm</p>
+
+                <div class="contacts_page">
+                    <form method="POST" action="#" id="contacts" >
+                        <input type="text" name="send_name" value="Имя">
+                        <input type="text" name="send_name" value="Email">
+                        <textarea name="send.text"></textarea>
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>
+                <a href="index.html">Главная</a> |
+                <a href="films.html">Фильмы</a> |
+                <a href="#">Сериалы</a> |
+                <a href="rating.html">Рейтинг фильмов</a> |
+                <a href="contacts.html">Контакты</a>
+            </p>
+            <p>Автор: Орлов Кирилл</p>
+        </div>
+
+    </div>
+</body>
+</html>

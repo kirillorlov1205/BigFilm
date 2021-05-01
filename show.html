@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BigFilm - this is a portal about cinema"/>
+    <meta name="keywords" content="movies, hd, fullhd"/>
+    <title>BigFilm</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="header">
+
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="index.html">BigFilm</a></h1>
+                    <h2>Лучшее о фильмах только здесь!</h2>
+                </div>
+            </div>
+
+             <div class="menubar">
+                 <ul class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="films.html">Фильмы</a></li>
+                    <li><a href="#">Сериалы</a></li>
+                    <li><a href="rating.html">Рейтинг фильмов</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="site_content">
+
+            <div class="sidebar_conteiner">
+                
+                <div class="sidebar">
+                    <h2>Поиск</h2>
+                    <form method="POST" action="#" id="search_form">
+                        <input type="search" name="search_field" placeholder="Ваш запрос">
+                        <input type="submit" class="btn" value="Поиск">
+                    </form> 
+                </div>
+
+                <div class="sidebar">
+                    <h2>Логин</h2>
+                    <form method="POST" action="" id="login_form">
+                        <input type="text" name="login_field" placeholder="Логин">
+                        <input type="password" name="password_field" placeholder="Пароль">
+                        <input type="submit" class="btn" value="Войти">
+                    </form>
+                    <div class="lables_passreg_text">
+                        <span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span>02.10.2020</span>  
+                    <p>Мы запустили расширенный поиск</p>
+                    <a href="#">Читать</a>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Рейтинг фильмов</h2>
+                    <ul>
+                        <li><a href="show.html">Джентльмены</a><span class="rating_sidebar">8.5</span></li>
+                        <li><a href="#">Интерстеллар</a><span class="rating_sidebar">8.6</span></li>
+                        <li><a href="#">Джокер</a><span class="rating_sidebar">8.0</span></li>
+                        <li><a href="#">Остров проклятых</a><span class="rating_sidebar">8.5</span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="content">
+
+                <h1>Джентльмены</h1>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dABPCMxu074" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <div class="info_film_page">
+                    <span class="label">Рейтинг: </span><span class="value">8.5</span>
+                    <span class="label">Год: </span><span class="value">2019</span>
+                    <span class="label">Режиссер: </span><span class="value">Гай Ричи</span>
+                </div>
+
+                <hr>
+
+                <h1>Описание фильма</h1>
+
+                <div class="description_film">
+                    <img src="assets/img/movies/gentlmen.jpg" alt="$">
+                    Один ушлый американец ещё со студенческих лет приторговывал наркотиками, а теперь придумал схему нелегального обогащения с использованием поместий обедневшей английской аристократии и очень неплохо на этом разбогател. Другой пронырливый журналист приходит к Рэю, правой руке американца, и предлагает тому купить киносценарий, в котором подробно описаны преступления его босса при участии других представителей лондонского криминального мира — партнёра-еврея, китайской диаспоры, чернокожих спортсменов и даже русского олигарха.
+                </div>
+
+                <hr>
+
+                <h2>Отзывы</h2>
+
+                <div class="reviews">
+
+                    <div class="review_name">
+                        Роман
+                    </div>
+
+                    <div class="review_text">
+                        Отличный фильм, 2 часа пролетели незаметно.
+                    </div>
+                </div>
+                <div class="reviews">
+
+                    <div class="review_name">
+                        Артем
+                    </div>
+
+                    <div class="review_text">
+                        Тот самый Гай Ричи, до муражек каждый диалог.
+                    </div>
+                </div>
+
+                <div class="send">
+                    <form method="POST" action="#" id="review">
+                        <input type="text" name="review_name" placeholder="Имя">
+                        <textarea name="review_text"></textarea>
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>
+                <a href="index.html">Главная</a> |
+                <a href="films.html">Фильмы</a> |
+                <a href="#">Сериалы</a> |
+                <a href="rating.html">Рейтинг фильмов</a> |
+                <a href="contacts.html">Контакты</a>
+            </p>
+            <p>Автор: Орлов Кирилл</p>
+        </div>
+
+    </div>
+</body>
+</html>
